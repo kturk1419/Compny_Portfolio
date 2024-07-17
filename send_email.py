@@ -9,7 +9,7 @@ def send_email(user_email, user_message, user_topic):
     password = 'nsxvivkxizgspwdh'
     receiver = 'kturk1419@gmail.com'
     context = ssl.create_default_context()
-    message = f"""
+    message = f"""\
     Subject: {user_topic}
     {user_message}
     From: 
